@@ -1,0 +1,20 @@
+
+.name-title{
+  padding: 40px;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+}
+.name-price{
+
+  padding: 40px;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-style: normal;
+}
+.button{
+
+  width: 250px;
+  height: 50px;
+}

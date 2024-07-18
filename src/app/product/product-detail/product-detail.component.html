@@ -1,0 +1,10 @@
+<div class="container">
+    <div fxLayout = "row wrap" fxLayoutGap = "50px grid">
+      <img src="assets/images/{{product?.imageUrl}}">
+      <div>
+        <p class="name-title">{{product?.name}}</p>
+        <p class="name-price">{{product?.price | currency: 'USD'}}</p>
+        <button class="button" mat-raised-button color="accent" (click)="clicked(product!)">Add to Cart</button>
+      </div>
+    </div>
+</div>
